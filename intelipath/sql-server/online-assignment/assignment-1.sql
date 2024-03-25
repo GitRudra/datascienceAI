@@ -162,7 +162,7 @@ INNER JOIN  Salesman s
 ON o.SalesmanId = s.SalesmanId
 INNER JOIN Customer c 
 ON o.CustomerId = c.CustomerId
-where c.PurchaseAmount between 1500 and 3000
+where c.PurchaseAmount between 500 and 1500
 ;
 
 ------------------------------Question 6---------------------------------------
